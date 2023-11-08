@@ -1,0 +1,14 @@
+{
+    "AWSEBDockerrunVersion": "1",
+    "Image": {
+        "Name": "michaelfronda/atx_housing_prediction",
+        "Update": "true"
+    },
+    "Ports": [
+        {
+        "ContainerPort": 9696,
+        "HostPort": 9696
+        }
+    ],
+    "Logging": "/var/log/nginx"
+}
